@@ -84,7 +84,7 @@ a file and download it**
 
 ```php
 $csv = new parseCSV();
-$csv->output(true, 'movies.csv', $array);
+$csv->output('movies.csv', $array, array('field 1', 'field 2'), ',');
 ```
 
 
